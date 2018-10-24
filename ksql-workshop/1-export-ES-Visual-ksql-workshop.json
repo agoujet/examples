@@ -9,7 +9,7 @@
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"b6959640-d7b1-11e8-a42c-238948a0b606\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+        "searchSourceJSON": "{\"index\":\"d7180950-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
     }
   },
@@ -23,21 +23,7 @@
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"b6959640-d7b1-11e8-a42c-238948a0b606\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    }
-  },
-  {
-    "_id": "6340fbe0-d7d1-11e8-b51f-55ee82e6883d",
-    "_type": "visualization",
-    "_source": {
-      "title": "Keywords All data",
-      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"MESSAGE.keyword\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"asc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":50},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"maxFontSize\":25,\"minFontSize\":10,\"orientation\":\"single\",\"scale\":\"linear\",\"showLabel\":true},\"title\":\"Keywords All data\",\"type\":\"tagcloud\"}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"b6959640-d7b1-11e8-a42c-238948a0b606\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+        "searchSourceJSON": "{\"index\":\"d7180950-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
     }
   },
@@ -51,7 +37,7 @@
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"b6959640-d7b1-11e8-a42c-238948a0b606\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+        "searchSourceJSON": "{\"index\":\"d7180950-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
     }
   },
@@ -65,7 +51,35 @@
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"eb3dcfc0-d7b1-11e8-a42c-238948a0b606\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+        "searchSourceJSON": "{\"index\":\"cf725570-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "6340fbe0-d7d1-11e8-b51f-55ee82e6883d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Keywords All data",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"MESSAGE.keyword\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"asc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":50},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"maxFontSize\":25,\"minFontSize\":10,\"orientation\":\"single\",\"scale\":\"linear\",\"showLabel\":true},\"title\":\"Keywords All data\",\"type\":\"tagcloud\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7180950-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "ec9bb570-d7da-11e8-bfd0-c125d89712b9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Channel & Status All Data",
+      "visState": "{\"title\":\"Channel & Status All Data\",\"type\":\"heatmap\",\"params\":{\"type\":\"heatmap\",\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Green to Red\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":null}],\"invertColors\":false,\"percentageMode\":true,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"overwriteColor\":false,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"CHANNEL.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"CLUB_STATUS.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0% - 10%\":\"rgb(0,104,55)\",\"10% - 20%\":\"rgb(26,151,80)\",\"20% - 30%\":\"rgb(102,189,99)\",\"30% - 40%\":\"rgb(166,217,106)\",\"40% - 50%\":\"rgb(217,239,139)\",\"50% - 60%\":\"rgb(255,255,190)\",\"60% - 70%\":\"rgb(254,224,139)\",\"70% - 80%\":\"rgb(253,174,97)\",\"80% - 90%\":\"rgb(244,109,67)\",\"90% - 100%\":\"rgb(214,47,39)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7180950-d7d6-11e8-bfd0-c125d89712b9\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
     }
   }
