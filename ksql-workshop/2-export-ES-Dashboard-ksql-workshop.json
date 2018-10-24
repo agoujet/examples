@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "0f770d70-d7d0-11e8-b51f-55ee82e6883d",
+    "_type": "dashboard",
+    "_source": {
+      "title": "My Customers Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":36,\"h\":10,\"i\":\"1\"},\"embeddableConfig\":{},\"id\":\"fb1cc950-d7cf-11e8-b51f-55ee82e6883d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":10,\"w\":32,\"h\":9,\"i\":\"2\"},\"embeddableConfig\":{},\"id\":\"3b60d010-d7d0-11e8-b51f-55ee82e6883d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":10,\"i\":\"3\"},\"embeddableConfig\":{},\"id\":\"bb236ab0-d7d0-11e8-b51f-55ee82e6883d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":19,\"w\":32,\"h\":15,\"i\":\"4\"},\"embeddableConfig\":{},\"id\":\"6340fbe0-d7d1-11e8-b51f-55ee82e6883d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":32,\"y\":10,\"w\":16,\"h\":24,\"i\":\"6\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"f0bf8f30-d7d2-11e8-b51f-55ee82e6883d\",\"type\":\"visualization\",\"version\":\"6.3.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-15m",
+      "refreshInterval": {
+        "display": "5 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 5000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
